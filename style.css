@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em 2.5em 7.5em 2.5em;
+}
+h1 {
+  margin-bottom: 1.66em;
+  color: #369eff;
+}
+h2 {
+  margin-bottom: 2.22em;
+  color: #3e3e3e;
+}
+h3 {
+  margin-bottom: 1.25em;
+  color: #1e1e1e;
+}
+p {
+  font-size: 16px;
+}
+.head-desc {
+  margin-bottom: 5em;
+  color: #808080;
+}
+img {
+  width: 250px;
+}
+.computer {
+  display: flex;
+  justify-content: center;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 500px;
+}
+.color-desc {
+  color: #535353;
+  margin-bottom: 1.875em;
+}
+.color1 {
+  background-color: #fbdf93;
+}
+.color2 {
+  background-color: #d3fb93;
+}
+.color3 {
+  background-color: #e193fb;
+}
+.color4 {
+  background-color: #93f0fb;
+}
+.color5 {
+  background-color: #f7fb93;
+}
+
+@media screen and (min-width: 430px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 7.5em 4em 7.5em 4em;
+  }
+  .color-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .head-content {
+    width: 400px;
+  }
+  img {
+    width: 250px;
+    height: 150px;
+  }
+  .head-desc {
+    margin-bottom: 0em;
+  }
+  .computer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+}
+@media screen and (min-width: 834px) {
+}
